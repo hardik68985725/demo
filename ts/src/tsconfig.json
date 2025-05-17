@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "../dist",
+    "paths": { "@app_root/*": ["./*"] },
+    "removeComments": true,
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "target": "ES2022"
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "include": ["./**/*"]
+}

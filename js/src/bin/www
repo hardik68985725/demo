@@ -1,0 +1,18 @@
+const path = require("node:path");
+const number_of_cpus = require("node:os").availableParallelism();
+const cluster = require("node:cluster");
+
+const app_file_path = path
+  .join(__dirname, "/", "..", "/", "app.js")
+  .replaceAll("\\", "/");
+
+cluster.setupPrimary({ exec: app_file_path });
+
+for (let i = 0; i < number_of_cpus; i++) {
+  cluster.fork();
+}
+
+cluster.on("exit", (worker) => {
+  console.log(`>>>>> worker process [${worker.process.pid}] has been killed.`);
+  cluster.fork();
+});

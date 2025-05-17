@@ -1,0 +1,36 @@
+<main style="padding-block: 30px; word-wrap: break-word">
+  <div class="main-title">Welcome to the <%- project_public_link -%></div>
+  <div style="padding: 8px 8px 16px 8px">
+    <p>Hi,</p>
+    <p style="text-align: justify">
+      Welcome to the <%- project_public_link -%>.
+      Thank you for joining <%- project_public_link -%> with <strong><%= subdomain %></strong>.
+      You are registered as the owner of the organization.
+    </p>
+    <p style="text-align: left">
+      You can set a password using the link: <strong><a href="<%= set_password_url %>" target="_blank" class="link-style"><%= set_password_url %></a></strong>.
+    </p>
+  </div>
+  <div style="padding: 16px 0px 28px 0px; text-align: center">
+    <p style="text-align: left">
+      After setting the password, you can click the following button or visit the link to login.
+      <strong><a href="<%= signin_url %>" target="_blank" class="link-style"><%= signin_url %></a></strong>.
+    </p>
+    <br />
+    <a href="<%= signin_url %>" target="_blank" class="btn-gradient-contain">Login</a>
+  </div>
+  <div style="background-color: #7ab5eb57">
+    <div class="main-title">Here's How you start</div>
+    <div style="padding-bottom: 16px">
+      <ul style="list-style-type: square; line-height: 24px">
+        <li class="start-list-item">Set the password.</li>
+        <li class="start-list-item">Login with your credentials.</li>
+        <li class="start-list-item">You can modify your password and update your profile.</li>
+        <li class="start-list-item">In the dashboard, you may see the data from your device.</li>
+        <li class="start-list-item">You can add users as per your team.</li>
+        <li class="start-list-item">You can add roles as per the different types of users and their responsibilities.</li>
+        <li class="start-list-item">And many more...</li>
+      </ul>
+    </div>
+  </div>
+</main>

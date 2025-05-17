@@ -1,0 +1,19 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "globals": {
+    "__root_path": "readonly",
+    "__line_number": "readonly",
+    "__line_number_print": "readonly",
+    "__uuidv4": "readonly",
+    "__moment": "readonly"
+  },
+  "rules": {}
+}
