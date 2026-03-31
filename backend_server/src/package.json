@@ -1,0 +1,47 @@
+{
+  "name": "backend_server_demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc-watch --onSuccess 'node --enable-source-maps ./dist/index.js'"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^5.0.3",
+    "@types/express-useragent": "^1.0.5",
+    "@types/luxon": "^3.6.2",
+    "@types/module-alias": "^2.0.4",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^1.4.13",
+    "@types/node": "^22.15.30",
+    "@types/nodemailer": "^6.4.17",
+    "prettier": "^3.5.3",
+    "prettier-plugin-ejs": "^1.0.3",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-useragent": "^1.0.15",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "luxon": "^3.6.1",
+    "module-alias": "^2.2.3",
+    "mongodb": "^6.17.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.3"
+  }
+}

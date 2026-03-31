@@ -1,0 +1,47 @@
+{
+  "diffEditor.wordWrap": "off",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Consolas", // "Bahnschrift,Calibri,Cascadia Code,Cascadia Mono,Comic Sans MS,Consolas,Corbel,Courier New,DejaVu Sans,DejaVu Sans Mono,Impact,Lucida Console,Microsoft New Tai Lue,Microsoft Sans Serif,OCR A,Segoe Print,Segoe Script,Segoe UI,Sitka,Sylfaen,Tahoma,monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.size": "proportional",
+  "editor.multiCursorLimit": 50000,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "other": "off",
+    "strings": "off"
+  },
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 100, 120, 160],
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordWrap": "off",
+
+  "explorer.excludeGitIgnore": true,
+
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "prettier.ignorePath": "./src/.prettierignore",
+
+  "window.title": "${dirty}${rootName} > ${activeEditorMedium}",
+  "window.zoomLevel": 0,
+
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#00aa00",
+    "tab.activeBorderTop": "#00aa00",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": false
+}
